@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "augmentedbackend.api",
+      "type": "de.htwsaar.AugmentedHtwSaar.ARBackend.ConfigUtils.AugmentedBackendSpringProperties",
+      "sourceType": "de.htwsaar.AugmentedHtwSaar.ARBackend.ConfigUtils.AugmentedBackendSpringProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "augmentedbackend.api.room-service-api-base-url",
+      "type": "java.lang.String",
+      "sourceType": "de.htwsaar.AugmentedHtwSaar.ARBackend.ConfigUtils.AugmentedBackendSpringProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "augmentedbackend.api.room-service-api-token",
+      "type": "java.lang.String",
+      "sourceType": "de.htwsaar.AugmentedHtwSaar.ARBackend.ConfigUtils.AugmentedBackendSpringProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "augmentedbackend.api.skip-authentication-for-paths",
+      "type": "java.util.Set<java.lang.String>",
+      "sourceType": "de.htwsaar.AugmentedHtwSaar.ARBackend.ConfigUtils.AugmentedBackendSpringProperties"
+    }
+  ],
+  "hints": []
+}

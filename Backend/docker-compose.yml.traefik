@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  augmentedbackend:
+    build: .
+    restart: unless-stopped
+    command: >
+        java
+        -Dspring.main.banner-mode=off
+        -jar app.jar
+    ports:
+     - 8080:8080
+# optional
+#       -Dlog4j.configuration=file:config/log4j.properties
+    labels:
+      - "traefik.port=8080"
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:augmentedbackend.pub.tcmpk.de"
+      - "traefik.docker.network=traefik"
+      - "traefik.frontend.headers.SSLRedirect=true"
+    restart: always
+    networks:
+      - traefik
+
+networks:
+  traefik:
+    external:
+      name: traefik

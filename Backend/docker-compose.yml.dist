@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  augmentedbackend:
+    build: .
+    restart: unless-stopped
+    command: >
+        java
+        -Dspring.main.banner-mode=off
+        -jar app.jar
+    ports:
+     - 8080:8080
+# optional
+#       -Dlog4j.configuration=file:config/log4j.properties
