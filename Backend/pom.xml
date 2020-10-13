@@ -28,7 +28,7 @@
         <dependendcies.mysql-connector-java.version>8.0.13</dependendcies.mysql-connector-java.version>
         <dependendcies.slf4j-api.version>1.6.1</dependendcies.slf4j-api.version>
         <dependendcies.slf4j-log4j12.version>1.7.7</dependendcies.slf4j-log4j12.version>
-        <dependendcies.junit.version>4.12</dependendcies.junit.version>
+        <dependendcies.junit.version>4.13.1</dependendcies.junit.version>
         <dependendcies.jackson-core.version>2.9.8</dependendcies.jackson-core.version>
         <dependendcies.jackson-annotations.version>2.9.8</dependendcies.jackson-annotations.version>
         <dependendcies.jackson-databind.version>2.9.10.1</dependendcies.jackson-databind.version>
