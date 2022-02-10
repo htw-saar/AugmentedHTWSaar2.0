@@ -23,7 +23,7 @@
         <project.mvn.mainClass>de.htwsaar.AugmentedHtwSaar.ARBackend.Server</project.mvn.mainClass>
 
         <!-- Versionen der Bibliotheken -->
-        <dependendcies.hibernate-core.version>5.4.1.Final</dependendcies.hibernate-core.version>
+        <dependendcies.hibernate-core.version>5.4.24.Final</dependendcies.hibernate-core.version>
         <dependendcies.hibernate-annotations.version>3.5.6-Final</dependendcies.hibernate-annotations.version>
         <dependendcies.mysql-connector-java.version>8.0.13</dependendcies.mysql-connector-java.version>
         <dependendcies.slf4j-api.version>1.6.1</dependendcies.slf4j-api.version>
