@@ -31,7 +31,7 @@
         <dependendcies.junit.version>4.12</dependendcies.junit.version>
         <dependendcies.jackson-core.version>2.9.8</dependendcies.jackson-core.version>
         <dependendcies.jackson-annotations.version>2.9.8</dependendcies.jackson-annotations.version>
-        <dependendcies.jackson-databind.version>2.9.10.1</dependendcies.jackson-databind.version>
+        <dependendcies.jackson-databind.version>2.12.6.1</dependendcies.jackson-databind.version>
     </properties>
 
     <dependencies>
